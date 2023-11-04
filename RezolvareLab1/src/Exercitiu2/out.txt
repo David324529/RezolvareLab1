@@ -1,4 +1,4 @@
 Suma este: 27.0
 Media aritemetica: 4.5
-Valoarea minima: 2.0
-Valoarea maxima: 8.0
+Valoarea minima: 2
+Valoarea maxima: 8

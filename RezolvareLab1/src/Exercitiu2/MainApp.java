@@ -19,14 +19,14 @@ public class MainApp {
           File obj=new File("src/Exercitiu2/in.txt");
           Scanner read=new Scanner(obj);
           double sum=0;
-         double min = Double.MAX_VALUE;
-         double max=Double.MIN_VALUE;
+         int min = Integer.MAX_VALUE;
+         int max=Integer.MIN_VALUE;
          int count=0;
           while(read.hasNext())
           {
               /*String data=read.nextLine();
               System.out.println(data);*/
-              double number=Double.parseDouble(read.nextLine());
+              int number=Integer.parseInt(read.nextLine());
               sum+=number;
               count++;
               if(number<min)
